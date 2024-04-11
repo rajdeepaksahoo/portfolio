@@ -141,6 +141,13 @@ a:active {
     color: red;
 }
 
+.projects{
+   display: flex; 
+   flex-direction: row; 
+   justify-content: space-around;
+}
+/* Media query for mobile devices */
+
 /* Media queries for responsiveness */
 @media only screen and (max-width: 768px) {
     /* Adjust container width */
@@ -156,7 +163,7 @@ a:active {
 
     /* Adjust span margin */
     span {
-        margin-left: 10%;
+        margin-left: 7%;
     }
 
     /* Adjust header content layout */
@@ -164,26 +171,13 @@ a:active {
         flex-direction: column;
         text-align: center;
     }
-}
-/* Media query for mobile devices */
-@media only screen and (max-width: 768px) {
-    .projects {
-        display: flex;
-        flex-direction: column; /* Display items in a column */
-        align-items: center; /* Center items horizontally */
+    .projects{
+        display: flex; 
+        flex-direction: column; 
+        justify-content: space-around;
     }
     img{
         margin: 0;
         padding: 0;
-    }
-    .projects a {
-        margin-bottom: 20px; /* Add spacing between items */
-        text-align: center; /* Center text */
-        font-size: large;
-        
-    }
-
-    .projects a img {
-        width: 80%; /* Adjust image width */
     }
 }
