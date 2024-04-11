@@ -212,4 +212,15 @@ a:active {
     .li{
         padding-top: 1%;
     }
+    .header{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .header h1{
+        font-size: large;
+    }
+    .header img{
+        margin-right: 15%;
+    }
 }
