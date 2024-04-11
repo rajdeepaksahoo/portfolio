@@ -140,12 +140,17 @@ a:hover {
 }
 .value{
     width: 70%;
+    box-sizing: border-box;
 }
 .collon{
     width: 10%;
 }
 .li{
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 6px;
 }
 a:active {
     color: red;
@@ -193,5 +198,18 @@ a:active {
     img{
         margin: 0;
         padding: 0;
+    }
+    .key{
+        width: 47%;
+    }
+    .value{
+        width: 42%;
+        box-sizing: border-box;
+    }
+    .collon{
+        width: 6%;
+    }
+    .li{
+        padding-top: 1%;
     }
 }
