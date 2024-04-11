@@ -89,18 +89,17 @@ footer {
 }
 
 .technical-expertise ul li::after {
-    content: ":";
     margin-right: 5px;
 }
 
 /* Profile photo styles */
 .profile-photo {
-    width: 100px; 
+    width: 150px; 
     height: auto; 
     border-radius: 50%; 
-    margin-left: 20px; 
     float: right; 
 }
+
 
 .contact-info {
     overflow: hidden; 
@@ -136,11 +135,26 @@ a:hover {
     text-shadow: #333;
     font-size: large;
 }
-
+.key{
+    width: 20%;
+}
+.value{
+    width: 70%;
+}
+.collon{
+    width: 10%;
+}
+.li{
+    display: flex;
+}
 a:active {
     color: red;
 }
-
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
 .projects{
    display: flex; 
    flex-direction: row; 
